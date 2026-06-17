@@ -20,7 +20,7 @@
           <idno type="wikidata">Q16571741</idno>
           <idno type="rism">people/30007455</idno>
         </author>
-        <author role="librettist">
+        <author role="librettist" type="attribution">
           <forename>Angelo</forename>
           <surename>Schietti</surename>
           <idno type="gnd">1057736090</idno>
@@ -38,9 +38,9 @@
          </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://musica.dhi-roma.it/index.php?id=ma_home">Deutsches Historisches Institut zu Rom - Musikgeschichtliche Abteilung</ref>
+          <ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00049301-7">****** Digitale Ressource</ref>
           <availability>
-            <licence target="http://creativecommons.org/licenses/by/3.0/de/legalcode">CC-BY-4.0</licence>
+            <licence target="http://creativecommons.org/licenses/by/4.0/de/legalcode">CC-BY-4.0</licence>
           </availability>
         </bibl>
             <bibl type="originalSource">
@@ -56,7 +56,7 @@
           <event type="print" when="1724">
             <desc/>
           </event>
-          <event type="premiere" when="1724-00-00">
+          <event type="performance" when="1724-12-09">
             <desc/>
           </event>
         </listEvent>
