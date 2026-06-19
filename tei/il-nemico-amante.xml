@@ -38,10 +38,14 @@
          </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource"> 
-          <ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00049301-7">** Digitale Ressource</ref>
+          <ref target="https://dlib.dhi-roma.it/">Deutsches Historisches Institut zu Rom - Musikgeschichtliche Abteilung</ref>
           <availability>
             <licence target="http://creativecommons.org/licenses/by/4.0/de/legalcode">CC-BY-4.0</licence>
           </availability>
+          <bibl type="originalSource">
+            <title>Karl Adolph: Am ersten Mai. Eine Tragikomödie der Arbeit aus Friedenstagen.
+              Leipzig; Wien: Neuer Akademischer Verlag 1919.</title>
+          </bibl>
         </bibl>
             <bibl type="originalSource">
                <title>Il nemico amante: drama per musica</title>
