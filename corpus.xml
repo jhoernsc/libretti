@@ -3,8 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Test Libretti Corpus</title>
-        <editor ref="https://orcid.org/0000-0001-8788-5718">Jörg Hörnschemeyer</editor>
+        <title>Italian Libretti Corpus</title>
       </titleStmt>
       <publicationStmt>
         <publisher>DHI Rom</publisher>
@@ -23,7 +22,7 @@
     <encodingDesc>
       <projectDesc>
        <p>
-         This corpus is for testing purposes only.
+         Edited by Vera Grund, Jan-Peter Grünewäler and Jörg Hörnschemeyer.
        </p>
       </projectDesc>
     </encodingDesc>
