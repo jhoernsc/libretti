@@ -8,7 +8,7 @@
         <author role="composer">
           <forename>Fortunato</forename>
           <surename>Chelleri</surename>
-          <idno type="gnd">123716055</idno>
+          <idno type="pnd">123716055</idno>
           <idno type="rism">people/30000653</idno>
           <idno type="wikidata">Q547389</idno>
         </author>
@@ -16,14 +16,14 @@
           <forename>Giuseppe</forename>
           <forename>Maria</forename>
           <surename>Buini</surename>
-          <idno type="gnd">123716055</idno>
+          <idno type="pnd">123716055</idno>
           <idno type="wikidata">Q16571741</idno>
           <idno type="rism">people/30007455</idno>
         </author>
         <author role="librettist" type="attribution">
           <forename>Angelo</forename>
           <surename>Schietti</surename>
-          <idno type="gnd">1057736090</idno>
+          <idno type="pnd">1057736090</idno>
           <idno type="wikidata">Q102279160</idno>
         </author>
 
