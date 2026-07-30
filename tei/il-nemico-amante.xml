@@ -191,7 +191,7 @@
         </castList>
       </div>
       <div type="settings">
-        <div type="act" n="1">
+        <div type="setting-act" n="1">
           <head>SCENE DELL' ATTO PRIMO.</head>
 
           <list>
@@ -199,7 +199,7 @@
             <item>Giardino Reale.</item>
           </list>
         </div>
-        <div type="act" n="2">
+        <div type="setting-act" n="2">
           <head>ATTO SECONDO.</head>
 
           <list>
@@ -207,7 +207,7 @@
             <item>Camere deliziose della Reggia.</item>
           </list>
         </div>
-        <div type="act" n="3">
+        <div type="setting-act" n="3">
           <head>ATTO TERZO.</head>
 
           <list>
