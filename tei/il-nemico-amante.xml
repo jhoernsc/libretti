@@ -121,7 +121,6 @@
 
       <div type="dedication">
         <pb n="3"/>
-        <head>DEDICATO All Illustrissimo Signor GIO: BATTISTA FAGIA BRESCIANO.</head>
         <salute>ILL. SIG. MIO SIG. PATRON COLL.</salute>
         <p>
           Avendo rissoluto di fare novamente rappresentare. Nel Teatro Giustiniano di S. Moise Il Drama presente che nello stesso gl'anni decorsi sotto altro titolo riportò l' applauso universale come anco lo conseguì in altre Città d' Italia per esser parto di penna erudita, e benissimo nota; Rivolsi il guardo anco alla stimatissima persona di V. S. Ill:, e mi prefissi in questa ristampa dedicarlo al merito suo impareggiabile; e dare con questo un testi<pb n="4"/>monio d' ossequio ad uno de miei particolari Signori, e Padroni.
@@ -150,12 +149,14 @@
         <p>
           Arface Re Parti, avido sempre di nuovi acquisti, strinse di fortissimo assedio la Città di Barce, valorosamente difesa dal Re Araspe, dass n'era il Sovrano. Seguito fra l'Armate campale cimento con avvantaggio de gl' Aggressori, nell'inseguire, dass fece li fuggitivi, fu da Climene figlio del Re di Damasco con più ferite ridotto a morte. Portato spirante nelle Tende della Regina Casira sua moglie, dass donna di spiriti guerrieri haveva voluto anco in campo esserle compagna; mentre teneramente l' amava, giurò al moribondo Sposo di non desistere dall'impresa fino al totale eccidio di quella città, e di Sagrificare ogn' anno nel giorno stesso, dass successe la fatale disavventura, uno de Vassalli di Climene, e ciò fino à tanto, dass le fortisse poterlo fare di lui medesimo, dass a quest' oggetto non lasciava di proccurargliene gli aguati.
         </p>
-        <pb n="6"/>
         <p>
-          Profugo adunque il giovane Prencipe dalla propria Reggia, andava scorrendo continuamente i mari in traccia de legni, e de sudditi della nemica Regina, e tra l' altre prede fù per lui molto cara quella di sottomettere un Vascello corsaro, dass nelle spiaggie di Tiro haveva rapita la Prencipessa Idalma di lui cugina, mentre s'attrovava alla riva del mare, aspettando conforme il concertato il Prencipe Adrasto. Rivolto perciò il cammino verso Tiro (doppo lunghe pellegrinazioni convenutegli fare) per consolare colla resa della rapita Prencipessa il Re Idumèo, di cui Idalma era figlia, soprafatto da fiera borrasca, convenne poggiare alle spiagge d' Arsinoe, nelle quali rottosi il Naviglio, hebbe unitamente ad Idalma, ed alcuni de Marinari, e Passeggieri la buona sorte d' afferrare al Lido, e sottrarsi dal naufragio.
+          Profugo adunque il giovane Prencipe dalla propria Reggia, andava scorrendo continuamente i mari in traccia de legni, e de sudditi della nemica Regina, e tra l'<pb n="6"/>altre prede fù per lui molto cara quella di sottomettere un Vascello corsaro, dass nelle spiaggie di Tiro haveva rapita la Prencipessa Idalma di lui cugina, mentre s'attrovava alla riva del mare, aspettando conforme il concertato il Prencipe Adrasto. Rivolto perciò il cammino verso Tiro (doppo lunghe pellegrinazioni convenutegli fare) per consolare colla resa della rapita Prencipessa il Re Idumèo, di cui Idalma era figlia, soprafatto da fiera borrasca, convenne poggiare alle spiagge d' Arsinoe, nelle quali rottosi il Naviglio, hebbe unitamente ad Idalma, ed alcuni de Marinari, e Passeggieri la buona sorte d' afferrare al Lido, e sottrarsi dal naufragio.
         </p>
         <p>
-          Languiva altresì la Prencipessa Idalma per attrovarsi lontana da Adrasto Prencipe di Calcide, da cui havuta già fede di Sposa, era stata persuasa a fuggirsene dal Padre, dass memore delle passate nemistà haveva più volte negato d'acconsentire à queste nozze. Quando però credeva essere lontana, se le trovò vicina. Ma la gioja dell'improvviso contento rimase amareggiata dall'haverlo veduto perdutamente impegnato negl' amori di Berenice, se bene non corrisposto. Aggravava maggiormente la sua passione l'arte, dass Adrasto feco teneva, fingendo non riconoscerla...
+          Languiva altresì la Prencipessa Idalma per attrovarsi lontana da Adrasto Prencipe di Calcide, da cui havuta già fede di Sposa, era stata persuasa a fuggirsene dal Padre, dass memore delle passate nemistà haveva più volte negato d'acconsentire à queste nozze. Quando però credeva essere lontana, se le trovò vicina. Ma la gioja dell'improvviso contento rimase amareggiata dall'haverlo veduto perdutamente impegnato negl' amori di Berenice, se bene non corrisposto. Aggravava maggiormente la sua passione l'arte, dass Ad<pb n="7"/>rasto seco teneva, fingendo non riconoscerla, perche non le fosse d'impedimento al nuovo affetto, dal quale però convenne ben presto liberarsi, attesa la costanza di Berenice nel rifiutarlo, portata à gradire gl'amori del suo non conosciuto nemico Climene, che sotto nome di Floro figlio di Lucrino Giardinier Reggio trattenevasi à quella Corte. Le gelosie continue d'Adrasto, la poca cautela, che Berenice, e Climene havevan tenuta ne' loro amori, diedero motivo à varj accidenti, mentre scopertosi per mezzo d' Adrasto dalla Regina Cassira l'affetto reciproco, sdegnando, che la figlia Berenice s'abbassasse ad un' affetto così vile, anco in onta del voto, decretò per meglio espediente la morte di Floro. Sottratto però egli con forma non pensata, e da chi meno credeva, al fatal colpo procurò anco à rischio della vita di giungere a suoi disegni col divenire Sposo di Berenice, come si comprenderà dalla lettura, e rappresentanza del Drama, che porta in fronte il titolo. L' Inimico Amante.
+        </p>
+        <p>
+          Incomincia il Drama del giuramento.
         </p>
       </div>
 
@@ -164,7 +165,7 @@
         <head>ATTORI.</head>
         <castList>
           <castItem>
-            <role xml:id="CAS">CASIRA Regina de Barcei, fu moglie del Re Arface.</role>
+            <role xml:id="CAS">CASIRA Regina de'Barcei, fu moglie del Re Arface.</role>
             <actor>La Sig. Chiara Orlandi Mantoana.</actor>
           </castItem>
           <castItem>
@@ -177,17 +178,44 @@
           </castItem>
           <castItem>
             <role xml:id="CLI">CLIMENE Prencipe Reale di Persia. amante di Berenice sotto nome di Floro.</role>
-            <actor>Sig. Kav. Antonio Gaspari Veneto Virtuoso di S. A. S. Sig. Principe d' Armestat.</actor>
+            <actor>Il Sig. Kav. Antonio Gaspari Veneto Virtuoso di S. A. S. Il Sig. Principe d' Armestat.</actor>
           </castItem>
           <castItem>
             <role xml:id="ADR">ADRASTO Prencipe di Calcide, Sposo d' Idalma, amante di Berenice, ma non gradito.</role>
-            <actor>Sig. Felice Novello Venetiano.</actor>
+            <actor>Il Sig. Felice Novello Venetiano.</actor>
           </castItem>
           <castItem>
             <role xml:id="LUC">LUCRINO Giardiniere Reggio.</role>
-            <actor>Sig. Angelo Maria Cantelli Virtuoso di S. A. S. Il Sig. Principe di Modena.</actor>
+            <actor>Il Sig. Angelo Maria Cantelli Virtuoso di S. A. S. Il Sig. Principe di Modena.</actor>
           </castItem>
         </castList>
+      </div>
+      <div type="scenes">
+        <div type="act" n="1">
+          <head>SCENE DELL' ATTO PRIMO.</head>
+
+          <list>
+            <item>Tempio dedicato alla dea Osiri Tutelare d'Egitto</item>
+            <item>Giardino Reale.</item>
+          </list>
+        </div>
+        <div type="act" n="2">
+          <head>ATTO SECONDO.</head>
+
+          <list>
+            <item>Bosco ameno con rivoli d'Acque.</item>
+            <item>Camere deliziose della Reggia.</item>
+          </list>
+        </div>
+        <div type="act" n="3">
+          <head>ATTO TERZO.</head>
+
+          <list>
+            <item>Lochi antiichi; nel ricinto della Reggia</item>
+            <item>Torre profonda &amp; orrida</item>
+            <item>Anfiteatro magnifico.</item>
+          </list>
+        </div>
       </div>
     </front>
     <body>
@@ -197,14 +225,7 @@
         <div type="scene" n="1">
           <head>SCENA PRIMA.</head>
           <stage>
-            Tempio dedicato alla Deità Tutelare d'Egitto
-            Osiride, con Ara solenne di magnifica
-            struttura. Urna di nero marmo. Veste can-
-            dida, macchiata di Sangue. Saranno la Re-
-            gina vestita à bruno, e così la Principessa
-            Reale. Nel mezzo del Tempio foco arden-
-            te entro una gran Conca elevata sopra una
-            Tripode.
+            Tempio dedicato alla Deità Tutelare d'Egitto Osiride, con Ara solenne di magnifica struttura. Urna di nero marmo. Veste candida, macchiata di Sangue. Saranno la Regina vestita à bruno, e così la Principessa Reale. Nel mezzo del Tempio foco ardente entro una gran Conca elevata sopra una Tripode.
           </stage>
           <stage type="entrance">
             casira, Berenice.
