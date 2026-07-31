@@ -289,9 +289,8 @@
 							<l>E del Tradito Rè fà la vendetta.</l>
 						</lg>
 					</sp>
-					
+					<div type="aria">
 						<sp who="#berenice">
-              <div type="aria">
 							<speaker>Ber.</speaker>
 							<lg type="stanza">
 								<l rend="indent">Per vendetta, e per amore</l>
@@ -300,9 +299,8 @@
 								<l rend="indent">L'empio cor strugger vedrò.</l>
 								<l rend="right">Per &amp;c.</l>
 							</lg>
-              </div>
 						</sp>
-					
+					</div>
 				</div>
 				<div type="scene" n="2">
 					<head>SCENA II.</head>
