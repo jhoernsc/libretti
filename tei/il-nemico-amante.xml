@@ -229,7 +229,7 @@
 					<stage>
             Tempio dedicato alla Deità Tutelare d'Egitto Osiride, con Ara solenne di magnifica struttura. Urna di nero marmo. Veste candida, macchiata di Sangue. Saranno la Regina vestita à bruno, e così la Principessa Reale. Nel mezzo del Tempio foco ardente entro una gran Conca elevata sopra una Tripode.
           </stage>
-					<stage type="entrance">
+					<stage>
             casira, Berenice.
           </stage>
 					<sp who="#casira">
@@ -304,7 +304,7 @@
 				</div>
 				<div type="scene" n="2">
 					<head>SCENA II.</head>
-					<stage type="entrance">
+					<stage>
             Climene, ed Idalma usciranno da una delle
             porte attoniti.
           </stage>
@@ -437,7 +437,7 @@
 				</div>
 				<pb n="13"/>
 				<div type="scene" n="4">
-					<head>S C E N A IV.</head>
+					<head>SCENA IV.</head>
 					<stage>casira, Berenice, Adrasto.</stage>
 					<sp who="#casira">
 						<speaker>Cas.</speaker>
@@ -555,7 +555,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="5">
-					<head>S C E N A V.</head>
+					<head>SCENA V.</head>
 					<stage>Berenice , Adrasto .</stage>
 					<sp who="#adrasto">
 						<speaker>Adr.</speaker>
@@ -600,7 +600,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="6">
-					<head>S C E N A VI.</head>
+					<head>SCENA VI.</head>
 					<stage>Adrasto .</stage>
 					<sp who="#adrasto">
 						<speaker>Adr.</speaker>
@@ -632,7 +632,7 @@
 				<!--<fw type="catch" place="bottom">SCE-</fw>-->
 				<pb n="16"/>
 				<div type="scene" n="7">
-					<head>S C E N A VII.</head>
+					<head>SCENA VII.</head>
 					<stage>Giardino Reale, con caduta d’ Acqua, e viali di verdura.</stage>
 					<stage>Climene, e Lucrino.</stage>
 					<sp who="#climene">
@@ -726,7 +726,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="8">
-					<head>S C E N A VIII.</head>
+					<head>SCENA VIII.</head>
 					<stage>Climene .</stage>
 					<sp who="#climene">
 						<speaker>Clim.</speaker>
@@ -757,7 +757,7 @@
 				<!--<fw type="catch" place="bottom">SCE-</fw>-->
 				<pb n="18"/>
 				<div type="scene" n="9">
-					<head>S C E N A IX.</head>
+					<head>SCENA IX.</head>
 					<stage>Adrasto , e Idalma .</stage>
 					<sp who="#idalma">
 						<speaker>Id.</speaker>
@@ -849,7 +849,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="10">
-					<head>S C E N A X.</head>
+					<head>SCENA X.</head>
 					<stage>casira, Lucrino, Climene in abito di Giardiniero.</stage>
 					<sp who="#lucrino">
 						<speaker>Luc:</speaker>
@@ -918,7 +918,7 @@
 				<!--<fw type="catch" place="bottom">S C E-</fw>-->
 				<pb n="20"/>
 				<div type="scene" n="11">
-					<head>S C E N A XI.</head>
+					<head>SCENA XI.</head>
 					<stage>casira, e Floro.</stage>
 					<sp who="#casira">
 						<speaker>Cas.</speaker>
@@ -957,7 +957,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="12">
-					<head>S C E N A XII.</head>
+					<head>SCENA XII.</head>
 					<stage>Adrasto, Berenice, Floro, Casira.</stage>
 					<sp who="#adrasto">
 						<speaker>Adr.</speaker>
@@ -983,7 +983,7 @@
 							<l>Di Climene saprà. 
 								<speaker>Fl.</speaker> Cauto si parli.
 							</l>
-							<stage type="delivery">à parte.</stage>
+							<stage>à parte.</stage>
 						</lg>
 					</sp>
 					<sp who="#berenice">
@@ -998,7 +998,7 @@
 						<speaker>Fl.</speaker>
 						<lg>
 							<l>Cresce vicino al rogo 
-								<stage type="delivery">à parte.</stage>
+								<stage>à parte.</stage>
 							</l>
 							<l>Quell' incendio, che già mi strugge il seno.</l>
 						</lg>
@@ -1023,7 +1023,7 @@
 						<speaker>Adr.</speaker>
 						<lg>
 							<l>Mie speranze svanite. 
-								<stage type="delivery">à parte.</stage>
+								<stage>à parte.</stage>
 							</l>
 						</lg>
 					</sp>
@@ -1069,7 +1069,7 @@
 						<speaker>Adr.</speaker>
 						<lg>
 							<l>L' avesse assorto il Mare,</l>
-							<stage type="delivery">à parte.</stage>
+							<stage>à parte.</stage>
 						</lg>
 					</sp>
 					<sp who="#casira">
@@ -1079,8 +1079,8 @@
 							<l>Uno stesso destin, il vero intendi.</l>
 						</lg>
 					</sp>
-					<stage type="exit">Adra-</stage>
-					<pb n="22"/>>
+					<stage>Adra-</stage>
+					<pb n="22"/>
 					<sp who="#casira">
 						<lg>
 							<l>Adrasto. Se pretendi</l>
@@ -1136,12 +1136,12 @@
 								<l>Che fortuna hà si protetto,</l>
 								<l>Rigor merta, e crudeltà.</l>
 							</lg>
-							<stage type="repetition">Quel &amp;c.</stage>
+							<stage>Quel &amp;c.</stage>
 						</sp>
 					</div>
 					<div type="scene" n="13">
 						<head>SCENA XIII.</head>
-						<stage type="setting">Berenice, Floro.</stage>
+						<stage>Berenice, Floro.</stage>
 						<sp who="#floro">
 							<speaker>Fl.</speaker>
 							<lg>
@@ -1168,7 +1168,7 @@
 							</lg>
 						</sp>
 					</div>
-					<stage type="exit">Egli</stage>
+					<stage>Egli</stage>
 				</div>
 				<pb n="23"/>
 				<div type="scene" n="13">
@@ -1177,7 +1177,7 @@
 							<l>Egli un giorno cadrà; han troppa forza</l>
 							<l>De tuoi begl' occhi i rai</l>
 							<l>Per l' alme penetrar, io dissi assai.</l>
-							<stage type="delivery">à parte;</stage>
+							<stage>à parte;</stage>
 						</lg>
 					</sp>
 					<sp who="#berenice">
@@ -1188,7 +1188,7 @@
 							<l>Tu lo svena primiero;</l>
 							<l>Piombi l' anima nera à i ciechi abbissi.</l>
 							<l>E cangia di Fortuna. Io troppo dissi.</l>
-							<stage type="delivery">à parte.</stage>
+							<stage>à parte.</stage>
 						</lg>
 						<div type="aria">
 							<lg>
@@ -1199,13 +1199,13 @@
 								<l>Perch' il pregio della gloria</l>
 								<l>Dia risalto alla mia fè.</l>
 							</lg>
-							<stage type="repetition">M' è più ec.</stage>
+							<stage>M' è più ec.</stage>
 						</div>
 					</sp>
 				</div>
 				<div type="scene" n="14">
 					<head>SCENA XIV.</head>
-					<stage type="setting">Berenice.</stage>
+					<stage>Berenice.</stage>
 					<sp who="#berenice">
 						<lg>
 							<l>
@@ -1514,7 +1514,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="6">
-					<head>S C E N A VI.</head>
+					<head>SCENA VI.</head>
 					<stage>Adrasto, e Berenice, che dorme.</stage>
 					<sp who="#adrasto">
 						<speaker>Adr.</speaker>
@@ -1716,7 +1716,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="8">
-					<head>S C E N A VIII.</head>
+					<head>SCENA VIII.</head>
 					<stage>Berenice, e Lucrino.</stage>
 					<sp who="#lucrino">
 						<speaker>Luc.</speaker>
@@ -1839,7 +1839,7 @@
 					</lg>
 				</div>
 				<div type="scene" n="9">
-					<head>S C E N A IX.</head>
+					<head>SCENA IX.</head>
 					<stage>Camere Terrene deliziose della Reggia.</stage>
 					<stage>Casira, Adrasto.</stage>
 					<sp who="#adrasto">
@@ -1936,7 +1936,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="10">
-					<head>S C E N A X.</head>
+					<head>SCENA X.</head>
 					<stage>Berenice, e Floro.</stage>
 					<sp who="#berenice">
 						<speaker>Ber.</speaker>
@@ -2063,7 +2063,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="11">
-					<head>S C E N A XI.</head>
+					<head>SCENA XI.</head>
 					<stage>Casira, ch’esce dal Gabinetto, e li suddetti.</stage>
 					<stage>Idalma, che sopraggiunge.</stage>
 					<sp who="#casira">
@@ -2109,7 +2109,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="12">
-					<head>S C E N A XII.</head>
+					<head>SCENA XII.</head>
 					<stage>Casira, e Floro.</stage>
 					<sp who="#casira">
 						<speaker>Cas.</speaker>
@@ -2141,7 +2141,7 @@
 					</sp>
 				</div>
 				<div type="scene" n="13">
-					<head>S C E N A XIII.</head>
+					<head>SCENA XIII.</head>
 					<stage>Floro, Idalma.</stage>
 					<sp who="#floro">
 						<speaker>Fl.</speaker>
