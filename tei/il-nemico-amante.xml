@@ -191,25 +191,22 @@
         </castList>
       </div>
       <div type="settings">
-        <div type="setting-act" n="1">
+        <div type="act" n="1">
           <head>SCENE DELL' ATTO PRIMO.</head>
-
           <list>
             <item>Tempio dedicato alla dea Osiri Tutelare d'Egitto</item>
             <item>Giardino Reale.</item>
           </list>
         </div>
-        <div type="setting-act" n="2">
+        <div type="act" n="2">
           <head>ATTO SECONDO.</head>
-
           <list>
             <item>Bosco ameno con rivoli d'Acque.</item>
             <item>Camere deliziose della Reggia.</item>
           </list>
         </div>
-        <div type="setting-act" n="3">
+        <div type="act" n="3">
           <head>ATTO TERZO.</head>
-
           <list>
             <item>Lochi antiichi; nel ricinto della Reggia</item>
             <item>Torre profonda &amp; orrida</item>
@@ -219,8 +216,8 @@
       </div>
     </front>
     <body>
-      
       <div type="act" n="1">
+        <pb n="9"/>
         <head>ATTO PRIMO</head>
         <div type="scene" n="1">
           <head>SCENA PRIMA.</head>
@@ -307,7 +304,7 @@
           <sp who="#idalma">
             <speaker>Id.</speaker>
             <lg>
-              <l><hi rend="initial">D</hi>A questo iniquo Cielo,</l>
+              <l><hi rend="initial">D</hi>a questo iniquo Cielo,</l>
             </lg>
             <stage>Lo prende per la mano con moto di guidarlo altrove.</stage>
             <pb n="11"/>
@@ -377,13 +374,8 @@
           </sp>
           <fw type="catchword">Sof-</fw>
           <fw type="signature">A 6</fw>
-        </div>
-      </div>
-      
-      
-<pb n="12"/>
-      <div type="act" n="1"> 
-        <div type="scene" n="2">
+  
+        <pb n="12"/>
           <sp>
             <lg type="stanza">
               <l>Soffri per poco, io te ne priego, in pace</l>
@@ -433,9 +425,8 @@
             </div>
           </sp>
         </div>
-      </div>
-<pb n="13"/>
-      <div type="scene" n="4">
+        <pb n="13"/>
+        <div type="scene" n="4">
         <head>S C E N A IV.</head>
         <stage>casira, Berenice, Adrasto.</stage>
         <sp who="#casira">
@@ -507,10 +498,7 @@
           </lg>
         </sp>
         <fw type="catch" place="bottom">Cesse</fw>
-      </div>
-
-<pb n="14"/>
-      <div type="scene" n="4">
+        <pb n="14"/>
         <sp who="#casira">
           <lg type="recitative">
             <l>Cesse l’empio al suo Fato ,</l>
@@ -553,8 +541,8 @@
             <l rend="indent">Se &amp; c.</l>
           </div>
         </sp>
-      </div>
-      <div type="scene" n="5">
+        </div>
+        <div type="scene" n="5">
         <head>S C E N A V.</head>
         <stage>Berenice , Adrasto .</stage>
         <sp who="#adrasto">
@@ -575,11 +563,8 @@
             <l>Che condur non ti può là , dove aspiri .</l>
           </lg>
         </sp>
-      </div>
       <fw type="catch" place="bottom">Pro-</fw>
-
-<pb n="15"/>
-      <div type="scene" n="5">
+      <pb n="15"/>
         <sp who="#berenice">
           <lg type="recitative">
             <l>Pronuba à le mie Tede</l>
@@ -597,8 +582,8 @@
           </lg>
           <stage rend="right">parte . .</stage>
         </sp>
-      </div>
-      <div type="scene" n="6">
+        </div>
+        <div type="scene" n="6">
         <head>S C E N A VI.</head>
         <stage>Adrasto .</stage>
         <sp who="#adrasto">
@@ -625,11 +610,9 @@
             <l rend="indent">Soffro , &amp;c.</l>
           </div>
         </sp>
-      </div>
-      <fw type="catch" place="bottom">SCE-</fw>
-
-<pb n="16"/>
-      <div type="act" n="1">
+        </div>
+        <fw type="catch" place="bottom">SCE-</fw>
+        <pb n="16"/>
         <div type="scene" n="7">
           <head>S C E N A VII.</head>
           <stage>Giardino Reale, con caduta d’ Acqua, e viali di verdura.</stage>
@@ -689,12 +672,9 @@
               <l>Arte, che tanto può, perito sei?</l>
             </lg>
           </sp>
-        </div>
+        
         <fw type="catch" place="bottom">Clim.</fw>
-      </div>
-
-<pb n="17"/>
-      <div type="scene" n="7">
+        <pb n="17"/>
         <sp who="#climene">
           <lg type="recitative">
             <l><speaker>Clim.</speaker> L’esito tel dirà. <speaker>Lucr.</speaker> Se questo è vero ,</l>
@@ -747,8 +727,7 @@
         </sp>
       </div>
       <fw type="catch" place="bottom">SCE-</fw>
-
-<pb n="18"/>
+      <pb n="18"/>
       <div type="scene" n="9">
         <head>S C E N A IX.</head>
         <stage>Adrasto , e Idalma .</stage>
@@ -824,11 +803,8 @@
             <l rend="indent">Un Aura , che risponde ,</l>
           </lg>
         </sp>
-      </div>
       <fw type="catch" place="bottom">Chi</fw>
-
-<pb n="19"/>
-      <div type="act" n="1">
+      <pb n="19"/>
         <sp who="#idalma">
           <lg type="stanza">
             <l rend="indent">Chi cerchi, quì non fù.</l>
@@ -837,7 +813,8 @@
             <l rend="indent">E l'Infedel sei tù.</l>
           </lg>
         </sp>
-        <div type="scene" n="10">
+      </div>
+      <div type="scene" n="10">
           <head>S C E N A X.</head>
           <stage>casira, Lucrino, Climene in abito di Giardiniero.</stage>
           <sp who="#lucrino">
@@ -897,13 +874,10 @@
               <l>Volo à ubbidirti. <stage rend="right">Lucr. parte.</stage></l>
             </lg>
           </sp>
-        </div>
-        <fw type="catch" place="bottom">S C E-</fw>
       </div>
-
-<pb n="20"/>
-      <div type="act" n="1">
-        <div type="scene" n="11">
+      <fw type="catch" place="bottom">S C E-</fw>
+      <pb n="20"/>
+      <div type="scene" n="11">
           <head>S C E N A XI.</head>
           <stage>casira, e Floro.</stage>
           <sp who="#casira">
@@ -939,8 +913,8 @@
               <l>Mi riserbo esser teco.</l>
             </lg>
           </sp>
-        </div>
-        <div type="scene" n="12">
+      </div>
+      <div type="scene" n="12">
           <head>S C E N A XII.</head>
           <stage>Adrasto, Berenice, Floro, Casira.</stage>
           <sp who="#adrasto">
@@ -956,13 +930,8 @@
               <l>Egli si ritrovò; darci contezza</l>
             </lg>
           </sp>
-        </div>
         <fw type="catch" place="bottom">Di</fw>
-      </div>
-
-<pb n="21"/>
-      <div type="scene" n="12">
-        <head>PRIMO.</head>
+        <pb n="21"/>
         <sp who="#floro">
           <lg>
             <l>Di Climene saprà. <speaker>Fl.</speaker> Cauto si parli.</l>
@@ -1058,12 +1027,8 @@
             <l>Uno stesso destin, il vero intendi.</l>
           </lg>
         </sp>
-          <stage type="exit">Adra-</stage>
-      </div>
-
-<pb n="22"/>
-      <div type="act" n="1">
-        <head>ATTO</head>
+        <stage type="exit">Adra-</stage>
+        <pb n="22"/>>
         <sp who="#casira">
           <lg>
             <l>Adrasto. Se pretendi</l>
@@ -1145,8 +1110,7 @@
         </div>
         <stage type="exit">Egli</stage>
       </div>
-
-<pb n="23"/>
+      <pb n="23"/>
       <div type="scene" n="13">
         <sp who="#floro">
           <lg>
@@ -1200,11 +1164,7 @@
           </lg>
         </sp>
         <fw type="catchword">D' un'</fw>
-      </div>
-
-<pb n="24"/>
-      <div type="act" n="1">
-        <head>ATTO</head>
+        <pb n="24"/>
         <sp who="#berenice">
           <lg>
             <l>D' un' incognita forza</l>
@@ -1228,6 +1188,7 @@
         </sp>
         <trailer>Fine dell' Atto Primo.</trailer>
         <fw type="catchword">AT-</fw>
+      </div>
       </div>
       <pb n="25"/>
       <div type="act" n="2">
@@ -1267,7 +1228,7 @@
               <l>Io goderò di rimaner quì sola.</l>
             </lg>
           </sp>
-                    <div type="aria">
+          <div type="aria">
             <sp who="#idalma">
               <speaker>Id.</speaker>
               <lg type="stanza">
@@ -1280,16 +1241,14 @@
               </lg>
             </sp>
           </div>
-        </div>
-      </div>
-
-<pb n="26"/>
+      <pb n="26"/>
       <lg type="stanza">
         <l>La saetta di cupido,</l>
         <l>Che il tuo core languir fà.</l>
         <note type="daCapo">Hor, &amp;c.</note>
       </lg>
-      <div type="scene" n="2">
+        </div>
+        <div type="scene" n="2">
         <head>SCENA II.</head>
         <stage>Berenice sola.</stage>
         <sp who="#berenice">
@@ -1325,8 +1284,8 @@
             </lg>
           </sp>
         </div>
-      </div>
-      <div type="scene" n="3">
+        </div>
+        <div type="scene" n="3">
         <head>SCENA III.</head>
         <stage>Cacciatori con una Tigre morta.</stage>
         <stage>Casira, Berenice, e Floro.</stage>
@@ -1337,11 +1296,7 @@
             <l>Viva, mercè de Numi,</l>
           </lg>
         </sp>
-      </div>
-
-<pb n="27"/>
-      <div type="act" n="2">
-        <div type="scene" n="3">
+       <pb n="27"/>
           <sp who="#casira">
             <lg type="recitative">
               <l>Da gl’artigli di quella</l>
@@ -1419,15 +1374,10 @@
               <l>Andar del pari amiche</l>
             </lg>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>B 2 Mu-</p>
-      </div>
-
-<pb n="28"/>
-      <div type="act" n="2">
-        <div type="scene" n="5">
+          <div type="catchword">
+            <p>B 2 Mu-</p>
+          </div>
+          <pb n="28"/>
           <sp who="#berenice">
             <lg type="recitative">
               <l>Musica, e Poesia, à me fà parte</l>
@@ -1505,15 +1455,10 @@
               <stage>s’avvicina.</stage>
             </lg>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>L’ani-</p>
-      </div>
-
-<pb n="29"/>
-      <div type="act" n="2">
-        <div type="scene" n="6">
+          <div type="catchword">
+            <p>L’ani-</p>
+          </div>
+          <pb n="29"/>
           <sp who="#adrasto">
             <lg type="recitative">
               <l part="f">L’anime lega.</l>
@@ -1631,15 +1576,10 @@
               <l>Le Donzelle Reali.</l>
             </lg>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>B 3 Si</p>
-      </div>
-
-<pb n="30"/>
-      <div type="act" n="2">
-        <div type="scene" n="7">
+          <div type="catchword">
+            <p>B 3 Si</p>
+          </div>
+          <pb n="30"/>
           <sp who="#floro">
             <lg type="recitative">
               <l part="f">Si rispettan così?</l>
@@ -1714,15 +1654,10 @@
             <speaker>Ber.</speaker>
             <l part="f">Lucrino</l>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>T</p>
-      </div>
-
-<pb n="31"/>
-      <div type="act" n="2">
-        <div type="scene" n="8">
+          <div type="catchword">
+            <p>T</p>
+          </div>
+          <pb n="31"/>
           <sp who="#berenice">
             <lg type="recitative">
               <l>Tu sei sagace in vero,</l>
@@ -1811,15 +1746,10 @@
               <l rend="indent">Già tutto intendo.</l>
             </lg>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>B 4 L'</p>
-      </div>
-
-<pb n="32"/>
-      <div type="act" n="2">
-        <div type="scene" n="8">
+          <div type="catchword">
+            <p>B 4 L'</p>
+          </div>
+          <pb n="32"/>
           <lg type="stanza">
             <l>L’arcano nel mio petto</l>
             <l>Sarà sepolto ogn’or.</l>
@@ -1910,15 +1840,10 @@
             <speaker>Cas.</speaker>
             <l>Ancor, che questo io veggia,</l>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>La</p>
-      </div>
-
-<pb n="33"/>
-      <div type="act" n="2">
-        <div type="scene" n="9">
+          <div type="catchword">
+            <p>La</p>
+          </div>
+          <pb n="33"/>
           <sp who="#casira">
             <stage>La Regina si ritira nel Gabinetto di Specchi, e chiude la porta.</stage>
             <l>Appena darò fede à gl’occhi miei.</l>
@@ -2005,15 +1930,10 @@
               <l>Bacio, ch’il core invia,</l>
             </lg>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>B 5 E sù</p>
-      </div>
-
-<pb n="34"/>
-      <div type="act" n="2">
-        <div type="scene" n="10">
+          <div type="catchword">
+            <p>B 5 E sù</p>
+          </div>
+          <pb n="34"/>
           <sp who="#floro">
             <lg type="recitative">
               <l>E sù la bianca mano</l>
@@ -2090,15 +2010,10 @@
             <speaker>Ber.</speaker>
             <l>In ritirata parte osserva, Idalma,</l>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>Qua-</p>
-      </div>
-
-<pb n="35"/>
-      <div type="act" n="2">
-        <div type="scene" n="11">
+          <div type="catchword">
+            <p>Qua-</p>
+          </div>
+          <pb n="35"/>
           <sp who="#berenice">
             <lg type="recitative">
               <l>Quale l’evento fia, me lo rapporta,</l>
@@ -2160,15 +2075,10 @@
             <l part="f">A Berenice..</l>
             <l>Che de secreti suoi ti vuole à parte,</l>
           </sp>
-        </div>
-      </div>
-      <div type="catchword">
-        <p>B 6 Ma</p>
-      </div>
-
-<pb n="36"/>
-      <div type="act" n="2">
-        <div type="scene" n="13">
+          <div type="catchword">
+            <p>B 6 Ma</p>
+          </div>
+          <pb n="36"/>
           <sp who="#floro">
             <lg type="recitative">
               <l>Ma taci l'esser mio, vanne ben tosto,</l>
@@ -2219,7 +2129,7 @@
       <div type="catchword">
         <p>A T-</p>
       </div>
-<pb n="37"/>
+      <pb n="37"/>
     <div type="act" n="3">
       <head>ATTO TERZO.</head>
       <div type="scene" n="1">
@@ -2275,10 +2185,7 @@
           </div>
         </sp>
         <stage>Cre-</stage>
-      </div>
-    </div>
-
-<pb n="38"/>
+      <pb n="38"/>
       <div type="aria">
         <lg type="stanza">
           <l rend="indent">Credi a me,</l>
@@ -2289,7 +2196,8 @@
         </lg>
         <stage rend="indent">Se &amp;c.</stage>
       </div>
-  <div type="scene" n="2">
+      </div>
+      <div type="scene" n="2">
     <head>SCENA II.</head>
     <stage>Adrasto.</stage>
     <sp who="#adrasto">
@@ -2350,9 +2258,7 @@
       </lg>
     </sp>
     <stage>In</stage>
-  </div>
-
-<pb n="39"/>
+    <pb n="39"/>
     <sp who="#casira">
       <lg>
         <l>In ogni forma il perdi,</l>
@@ -2441,8 +2347,7 @@
       </lg>
     </sp>
     <stage>Che-</stage>
-
-<pb n="40"/>
+    <pb n="40"/>
     <sp who="#lucrino">
       <lg>
         <l>Che quel di Barce.</l>
@@ -2469,6 +2374,7 @@
         <stage rend="indent">Donna &amp;c.</stage>
       </div>
     </sp>
+    </div>
   <div type="scene" n="4">
     <head>SCENA IV.</head>
     <stage>Idalma, Casira.</stage>
@@ -2558,9 +2464,7 @@
       </lg>
     </sp>
     <stage>S'in-</stage>
-  </div>
-
-<pb n="41"/>
+    <pb n="41"/>
     <sp who="#casira">
       <lg>
         <l>S'introduca costei:</l>
@@ -2609,6 +2513,7 @@
         <stage rend="indent">Que l' &amp;c.</stage>
       </div>
     </sp>
+    </div>
   <div type="scene" n="5">
     <head>SCENA V.</head>
     <stage>Idalma.</stage>
@@ -2628,9 +2533,7 @@
       </lg>
     </sp>
     <stage>Ti-</stage>
-  </div>
-
-<pb n="42"/>
+    <pb n="42"/>
     <sp who="#idalma">
       <lg>
         <l>Titubar la raggion;</l>
@@ -2666,6 +2569,7 @@
         </lg>
       </div>
     </sp>
+    </div>
   <div type="scene" n="6">
     <head>SCENA VI.</head>
     <stage>Castello con stanze sotterranee. Climene uscito da una di esse, si và ad appoggiare ad un colonnato di marmo. Gran face accesa nel mezzo, che fà luce a quella oscurità.</stage>
@@ -2678,9 +2582,7 @@
       </lg>
     </sp>
     <stage>Por-</stage>
-  </div>
-
-<pb n="43"/>
+    <pb n="43"/>
     <sp who="#climene">
       <lg>
         <l>Porga l'ultimo addio?</l>
@@ -2736,8 +2638,8 @@
       </lg>
     </sp>
     <stage>SCE-</stage>
-
-<pb n="44"/>
+    </div>
+    <pb n="44"/>
   <div type="scene" n="7">
     <head>SCENA VII.</head>
     <stage>Adrasto, e Floro.</stage>
@@ -2820,9 +2722,7 @@
       </lg>
     </sp>
     <stage>I col-</stage>
-  </div>
-
-<pb n="45"/>
+    <pb n="45"/>
     <sp who="#berenice">
       <lg>
         <l>I colpi di Fortuna,</l>
@@ -2878,8 +2778,8 @@
       </div>
     </sp>
     <stage>SCE-</stage>
-
-<pb n="46"/>
+    </div>
+  <pb n="46"/>
   <div type="scene" n="9">
     <head>SCENA IX.</head>
     <stage>Anfiteatro maestoso.</stage>
@@ -2978,9 +2878,7 @@
       </lg>
     </sp>
     <stage>Id.</stage>
-  </div>
-
-<pb n="47"/>
+    <pb n="47"/>
     <sp who="#idalma">
       <speaker>Id.</speaker>
       <lg>
@@ -3082,8 +2980,7 @@
       </lg>
     </sp>
     <stage>Del</stage>
-
-<pb n="48"/>
+    <pb n="48"/>
     <sp who="#climene">
       <lg>
         <l>Del comune piacer la gioia sia,</l>
@@ -3164,6 +3061,8 @@
       </lg>
     </sp>
     <trailer>Fine del Drama.</trailer>
+    </div>
+    </div>
     </body>
   </text>
 </TEI>
