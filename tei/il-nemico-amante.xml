@@ -81,7 +81,9 @@
 					</person>
 					<person xml:id="climene" sex="MALE">
 						<persName>Climene</persName>
-						<persName xml:id="floro">Floro</persName>
+					</person>
+          <person xml:id="floro" sex="MALE">
+						<persName>Floro</persName>
 					</person>
 					<person xml:id="adrasto" sex="MALE">
 						<persName>Adrasto</persName>
@@ -156,7 +158,7 @@
 				</p>
 				<p>
           Languiva altresì la Prencipessa Idalma per attrovarsi lontana da Adrasto Prencipe di Calcide, da cui havuta già fede di Sposa, era stata persuasa a fuggirsene dal Padre, dass memore delle passate nemistà haveva più volte negato d'acconsentire à queste nozze. Quando però credeva essere lontana, se le trovò vicina. Ma la gioja dell'improvviso contento rimase amareggiata dall'haverlo veduto perdutamente impegnato negl' amori di Berenice, se bene non corrisposto. Aggravava maggiormente la sua passione l'arte, dass Ad
-					<pb n="7"/>rasto seco teneva, fingendo non riconoscerla, perche non le fosse d'impedimento al nuovo affetto, dal quale però convenne ben presto liberarsi, attesa la costanza di Berenice nel rifiutarlo, portata à gradire gl'amori del suo non conosciuto nemico Climene, che sotto nome di Floro figlio di Lucrino Giardinier Reggio trattenevasi à quella Corte. Le gelosie continue d'Adrasto, la poca cautela, che Berenice, e Climene havevan tenuta ne' loro amori, diedero motivo à varj accidenti, mentre scopertosi per mezzo d' Adrasto dalla Regina Cassira l'affetto reciproco, sdegnando, che la figlia Berenice s'abbassasse ad un' affetto così vile, anco in onta del voto, decretò per meglio espediente la morte di Floro. Sottratto però egli con forma non pensata, e da chi meno credeva, al fatal colpo procurò anco à rischio della vita di giungere a suoi disegni col divenire Sposo di Berenice, come si comprenderà dalla lettura, e rappresentanza del Drama, che porta in fronte il titolo. L' Inimico Amante.
+					<pb n="7"/>rasto seco teneva, fingendo non riconoscerla, perche non le fosse d'impedimento al nuovo affetto, dal quale però convenne ben presto liberarsi, attesa la costanza di Berenice nel rifiutarlo, portata à gradire gl'amori del suo non conosciuto nemico Climene, che sotto nome di Floro figlio di Lucrino Giardinier Reggio trattenevasi à quella Corte. Le gelosie continue d'Adrasto, la poca cautela, che Berenice, e Climene havevan tenuta ne' loro amori, diedero motivo à varj accidenti, mentre scopertosi per mezzo d' Adrasto dalla Regina Casira l'affetto reciproco, sdegnando, che la figlia Berenice s'abbassasse ad un' affetto così vile, anco in onta del voto, decretò per meglio espediente la morte di Floro. Sottratto però egli con forma non pensata, e da chi meno credeva, al fatal colpo procurò anco à rischio della vita di giungere a suoi disegni col divenire Sposo di Berenice, come si comprenderà dalla lettura, e rappresentanza del Drama, che porta in fronte il titolo. L' Inimico Amante.
         
 				</p>
 				<p>
@@ -2522,7 +2524,7 @@
 							<l>Un fatale destin.</l>
 						</lg>
 					</sp>
-					<sp who="#cassira">
+					<sp who="#casira">
 						<speaker>Cas.</speaker>
 						<lg>
 							<l>E di Lucrino</l>
@@ -2536,7 +2538,7 @@
 							<l>Sempre d'alti natali esser mi disse.</l>
 						</lg>
 					</sp>
-					<sp who="#cassira">
+					<sp who="#casira">
 						<speaker>Cas.</speaker>
 						<lg>
 							<l>Perche dunque s'asconde</l>
@@ -2550,7 +2552,7 @@
 							<l>Ch'egli certo non è, quale si finge.</l>
 						</lg>
 					</sp>
-					<sp who="#cassira">
+					<sp who="#casira">
 						<speaker>Cas.</speaker>
 						<lg>
 							<l>E la ne l'alta torre,</l>
@@ -3052,7 +3054,7 @@
 							<l>Viva Climene, viva.</l>
 						</lg>
 					</sp>
-					<sp who="#cssira">
+					<sp who="#casira">
 						<speaker>Cas.</speaker>
 						<lg>
 							<l>Del Popolo la voce,</l>
@@ -3137,7 +3139,7 @@
 							<l>Quello, che Floro ha oprato.</l>
 						</lg>
 					</sp>
-					<sp who="#cassira">
+					<sp who="#casira">
 						<speaker>Cas.</speaker>
 						<lg>
 							<l>Scherza così con noi mortali il Fato.</l>
