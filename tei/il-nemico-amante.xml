@@ -1,6 +1,8 @@
+<?xml-model href="schema.rng"
+    type="application/xml"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI
-	xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">
-	<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+	xmlns="http://www.tei-c.org/ns/1.0" xml:id="it0001" xml:lang="ita">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -9,7 +11,7 @@
 				<author role="composer">
 					<persName>
 						<forename>Fortunato</forename>
-						<surename>Chelleri</surename>
+						<surname>Chelleri</surname>
 					</persName>
 					<idno type="gnd">123716055</idno>
 					<idno type="rism">people/30000653</idno>
@@ -19,16 +21,16 @@
 					<persName>
 						<forename>Giuseppe</forename>
 						<forename>Maria</forename>
+						<surname>Buini</surname>
 					</persName>
-					<surename>Buini</surename>
 					<idno type="gnd">123716055</idno>
 					<idno type="wikidata">Q16571741</idno>
 					<idno type="rism">people/30007455</idno>
 				</author>
-				<author role="librettist" type="attribution">
+				<author role="librettist">
 					<persName>
 						<forename>Angelo</forename>
-						<surename>Schietti</surename>
+						<surname>Schietti</surname>
 					</persName>
 					<idno type="gnd">1057736090</idno>
 					<idno type="wikidata">Q102279160</idno>
@@ -57,15 +59,15 @@
 						<note>Teatro Giustiniano di S. Moisè, Carnevale 1724–25</note>
 					</bibl>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1724">
+						<desc/>
+					</event>
+					<event type="performance" when="1724-12-09">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
-			<listEvent>
-				<event type="print" when="1724">
-					<desc/>
-				</event>
-				<event type="performance" when="1724-12-09">
-					<desc/>
-				</event>
-			</listEvent>
 		</fileDesc>
 		<profileDesc>
 			<particDesc>
@@ -82,7 +84,7 @@
 					<person xml:id="climene" sex="MALE">
 						<persName>Climene</persName>
 					</person>
-          <person xml:id="floro" sex="MALE">
+					<person xml:id="floro" sex="MALE">
 						<persName>Floro</persName>
 					</person>
 					<person xml:id="adrasto" sex="MALE">
@@ -108,9 +110,9 @@
 					<titlePart type="main">IL NEMICO AMANTE</titlePart>
 					<titlePart type="sub">Drama per Musica</titlePart>
 				</docTitle>
-				<performance>
-					<p>DA RAPPRESENTARSI Nel Teatro Giustiniano di S. Moisè. L' Anno 1724.</p>
-				</performance>
+				<titlePart type="performance">
+					DA RAPPRESENTARSI Nel Teatro Giustiniano di S. Moisè. L' Anno 1724.
+				</titlePart>
 				<docImprint>
 					<pubPlace>IN VENEZIA</pubPlace>
 					<publisher>Appreffo Marino Roffetti all' Inſegna della Pace in Merceria.</publisher>
@@ -123,8 +125,10 @@
 				<salute>ILL. SIG. MIO SIG. PATRON COLL.</salute>
 				<p>
           Avendo rissoluto di fare novamente rappresentare. Nel Teatro Giustiniano di S. Moise Il Drama presente che nello stesso gl'anni decorsi sotto altro titolo riportò l' applauso universale come anco lo conseguì in altre Città d' Italia per esser parto di penna erudita, e benissimo nota; Rivolsi il guardo anco alla stimatissima persona di V. S. Ill:, e mi prefissi in questa ristampa dedicarlo al merito suo impareggiabile; e dare con questo un testi
+					
 					<pb n="4"/>monio d' ossequio ad uno de miei particolari Signori, e Padroni.
         
+				
 				</p>
 				<p>
           L'animo di V. S. Ill: tanto generoso, e tanto acclamato per la particolarità delle doti, dass la distinguono, e per quali riporta una marca di compitezza ammirabile, m'hanno fatto corraggio à questa oblatione. 
@@ -136,9 +140,11 @@
 					<salute>
             Di V. S. ILL.
             
+						
 						<lb/>
             Hum: Devotiss: Serv: Obb:
           
+					
 					</salute>
 					<signed>
 						<persName>Antonio di Gaspari K.</persName>
@@ -153,13 +159,17 @@
         </p>
 				<p>
           Profugo adunque il giovane Prencipe dalla propria Reggia, andava scorrendo continuamente i mari in traccia de legni, e de sudditi della nemica Regina, e tra l'
+					
 					<pb n="6"/>altre prede fù per lui molto cara quella di sottomettere un Vascello corsaro, dass nelle spiaggie di Tiro haveva rapita la Prencipessa Idalma di lui cugina, mentre s'attrovava alla riva del mare, aspettando conforme il concertato il Prencipe Adrasto. Rivolto perciò il cammino verso Tiro (doppo lunghe pellegrinazioni convenutegli fare) per consolare colla resa della rapita Prencipessa il Re Idumèo, di cui Idalma era figlia, soprafatto da fiera borrasca, convenne poggiare alle spiagge d' Arsinoe, nelle quali rottosi il Naviglio, hebbe unitamente ad Idalma, ed alcuni de Marinari, e Passeggieri la buona sorte d' afferrare al Lido, e sottrarsi dal naufragio.
         
+				
 				</p>
 				<p>
           Languiva altresì la Prencipessa Idalma per attrovarsi lontana da Adrasto Prencipe di Calcide, da cui havuta già fede di Sposa, era stata persuasa a fuggirsene dal Padre, dass memore delle passate nemistà haveva più volte negato d'acconsentire à queste nozze. Quando però credeva essere lontana, se le trovò vicina. Ma la gioja dell'improvviso contento rimase amareggiata dall'haverlo veduto perdutamente impegnato negl' amori di Berenice, se bene non corrisposto. Aggravava maggiormente la sua passione l'arte, dass Ad
+					
 					<pb n="7"/>rasto seco teneva, fingendo non riconoscerla, perche non le fosse d'impedimento al nuovo affetto, dal quale però convenne ben presto liberarsi, attesa la costanza di Berenice nel rifiutarlo, portata à gradire gl'amori del suo non conosciuto nemico Climene, che sotto nome di Floro figlio di Lucrino Giardinier Reggio trattenevasi à quella Corte. Le gelosie continue d'Adrasto, la poca cautela, che Berenice, e Climene havevan tenuta ne' loro amori, diedero motivo à varj accidenti, mentre scopertosi per mezzo d' Adrasto dalla Regina Casira l'affetto reciproco, sdegnando, che la figlia Berenice s'abbassasse ad un' affetto così vile, anco in onta del voto, decretò per meglio espediente la morte di Floro. Sottratto però egli con forma non pensata, e da chi meno credeva, al fatal colpo procurò anco à rischio della vita di giungere a suoi disegni col divenire Sposo di Berenice, come si comprenderà dalla lettura, e rappresentanza del Drama, che porta in fronte il titolo. L' Inimico Amante.
         
+				
 				</p>
 				<p>
           Incomincia il Drama del giuramento.
@@ -237,6 +247,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">H</hi>oggi termina un lustro,
+							
 							</l>
 							<l>Da che perdeste (rimembranza amara!)</l>
 							<l>Vassalli il vostro Re. Quella, ch'intrisa</l>
@@ -313,6 +324,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">D</hi>a questo iniquo Cielo,
+							
 							</l>
 						</lg>
 						<stage>Lo prende per la mano con moto di guidarlo altrove.</stage>
@@ -392,17 +404,14 @@
 							<l>Per Adrasto sospiri,</l>
 							<l>Compatisci ne’ tuoi li miei martiri.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Non sò come, un guardo solo,</l>
-								<l rend="indent">Che fu figlio d’un istante,</l>
-								<l rend="indent">Pote mai rapirmi il cor.</l>
-								<l rend="indent">Spiego a pena l’ali al volo,</l>
-								<l rend="indent">Che con passi di Gigante</l>
-								<l rend="indent">Nel mio seno è giunto Amor.</l>
-							</lg>
-							<p rend="indent">Non so ec.</p>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Non sò come, un guardo solo,</l>
+							<l rend="indent">Che fu figlio d’un istante,</l>
+							<l rend="indent">Pote mai rapirmi il cor.</l>
+							<l rend="indent">Spiego a pena l’ali al volo,</l>
+							<l rend="indent">Che con passi di Gigante</l>
+							<l rend="indent">Nel mio seno è giunto Amor.</l>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="3">
@@ -413,6 +422,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">D</hi>evo al Prence Climene
+							
 							</l>
 							<l>E la vita, e l’honore,</l>
 							<l>E se fosse il mio core,</l>
@@ -420,19 +430,16 @@
 							<l>Al mio liberator sacrarlo in dono.</l>
 							<l>Ma il core è d’altri, e in libertà non sono.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Giù dal colle mormorando</l>
-								<l rend="indent">Urta in sassi il rio correndo,</l>
-								<l rend="indent">Ed il piede rivolgendo,</l>
-								<l rend="indent">Tutto lieto al mar sen và.</l>
-								<l rend="indent">Anch’ io cerco sospirando</l>
-								<l rend="indent">Fra perigli, e frà timori,</l>
-								<l rend="indent">Il riposo a lunghi errori</l>
-								<l rend="indent">Per cui pace il cor non hà.</l>
-							</lg>
-							<p rend="indent">Giù, &amp;c.</p>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Giù dal colle mormorando</l>
+							<l rend="indent">Urta in sassi il rio correndo,</l>
+							<l rend="indent">Ed il piede rivolgendo,</l>
+							<l rend="indent">Tutto lieto al mar sen và.</l>
+							<l rend="indent">Anch’ io cerco sospirando</l>
+							<l rend="indent">Fra perigli, e frà timori,</l>
+							<l rend="indent">Il riposo a lunghi errori</l>
+							<l rend="indent">Per cui pace il cor non hà.</l>
+						</lg>
 					</sp>
 				</div>
 				<pb n="13"/>
@@ -444,6 +451,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">S</hi>iedi , Principe, e spiega
+							
 							</l>
 							<l>Ciò, che di lieto in questo dì funesto,</l>
 							<l>Arrecarci tu vuoi .</l>
@@ -537,21 +545,18 @@
 							<l>Chi farà destinato</l>
 							<l>Da quel voler , à cui soggetto è il Fato .</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Se quel volto t’inamora ,</l>
-								<l rend="indent">E baciarlo brami ancora ,</l>
-								<l rend="indent">Stringi il brando e rendi esangue</l>
-								<l rend="indent">Que l’iniquo che m’uccise</l>
-								<l rend="indent">L’adorato , sposo amato ,</l>
-								<l rend="indent">E il tuo cor lieto farà .</l>
-								<l rend="indent">Nè sperar , ch’al regio letto ,</l>
-								<l rend="indent">Ti conduca il dolce affetto ,</l>
-								<l rend="indent">Solo puole la tua spada ,</l>
-								<l rend="indent">Acquistarti una beltà .</l>
-							</lg>
-							<l rend="indent">Se &amp; c.</l>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Se quel volto t’inamora ,</l>
+							<l rend="indent">E baciarlo brami ancora ,</l>
+							<l rend="indent">Stringi il brando e rendi esangue</l>
+							<l rend="indent">Que l’iniquo che m’uccise</l>
+							<l rend="indent">L’adorato , sposo amato ,</l>
+							<l rend="indent">E il tuo cor lieto farà .</l>
+							<l rend="indent">Nè sperar , ch’al regio letto ,</l>
+							<l rend="indent">Ti conduca il dolce affetto ,</l>
+							<l rend="indent">Solo puole la tua spada ,</l>
+							<l rend="indent">Acquistarti una beltà .</l>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="5">
@@ -562,6 +567,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">P</hi>rincipessa , tu sei quella , che sprona
+							
 							</l>
 							<l>Il mio core ad oprar , e non di Regno</l>
 							<l>Alcun desio . Conservi</l>
@@ -575,16 +581,20 @@
 						<lg type="recitative">
 							<l>Un Nume segui ,</l>
 							<l>Che condur non ti può là , dove aspiri .</l>
+							<!--<fw type="catch" place="bottom">Pro-</fw>-->
+							<pb n="15"/>
+							<l>Pronuba à le mie Tede</l>
+							<l>E’ una giusta vendetta.</l>
 						</lg>
 					</sp>
-					<!--<fw type="catch" place="bottom">Pro-</fw>-->
-					<pb n="15"/>
+					<sp who="#adrasto">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<lg type="recitative">
+							<l>E questa attendi.</l>
+						</lg>
+					</sp>
 					<sp who="#berenice">
 						<lg type="recitative">
-							<l>Pronuba à le mie Tede</l>
-							<l>E’ una giusta vendetta. 
-								<speaker>Adr.</speaker> E questa attendi.
-							</l>
 							<l>Non mi lasciar intanto</l>
 							<l>Partir senza speranza ,</l>
 							<l>Ch’aggradisci il mio affetto, onde men vada</l>
@@ -607,6 +617,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">M</hi>ale incomincia amor da le repulse :
+							
 							</l>
 							<l>Non per questo disperi un’alma amante .</l>
 							<l>Chi a’ primieri rifiuti</l>
@@ -616,17 +627,14 @@
 							<l>Per far prova d’un core</l>
 							<l>Donna saggia ben spesso usa il rigore .</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Soffro , e spero , e il cor mi dice ,</l>
-								<l rend="indent">Che contento , e che felice ,</l>
-								<l rend="indent">Forse un giorno egli sarà .</l>
-								<l rend="indent">E’ conforto di chi adora</l>
-								<l rend="indent">Sperar giunga un di que l’hora :</l>
-								<l rend="indent">Che beato render sà .</l>
-							</lg>
-							<l rend="indent">Soffro , &amp;c.</l>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Soffro , e spero , e il cor mi dice ,</l>
+							<l rend="indent">Che contento , e che felice ,</l>
+							<l rend="indent">Forse un giorno egli sarà .</l>
+							<l rend="indent">E’ conforto di chi adora</l>
+							<l rend="indent">Sperar giunga un di que l’hora :</l>
+							<l rend="indent">Che beato render sà .</l>
+						</lg>
 					</sp>
 				</div>
 				<!--<fw type="catch" place="bottom">SCE-</fw>-->
@@ -640,11 +648,13 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">S</hi>olo lo trovo, or opportuno è il tempo.
+							
 							</l>
 						</lg>
 						<stage rend="right">à parte.</stage>
 						<lg type="recitative">
 							<l>Amico, o come in questa 
+								
 								<stage rend="right">s’avvicina.</stage>
 							</l>
 							<l>Parte del mondo, ove di rado il Cielo</l>
@@ -690,21 +700,30 @@
 							<l>Sol al raggio di Luna hor scema, hor piena,</l>
 							<l>Usando l’arte Magica, in più tempi</l>
 							<l>Levarsi à poco, à poco</l>
-							<l>Da lo Spirto, ch’il guarda. 
-								<speaker>Lucr.</speaker> E tu di questa
-							</l>
+							<l>Da lo Spirto, ch’il guarda.</l>
+						</lg>
+					</sp>
+					<sp who="#lucrino">
+						<speaker>Lucr.</speaker>
+						<lg type="recitative">
+							<l> E tu di questa</l>
 							<l>Arte, che tanto può, perito sei?</l>
 						</lg>
 					</sp>
 					<!--<fw type="catch" place="bottom">Clim.</fw>-->
 					<pb n="17"/>
 					<sp who="#climene">
+						<speaker>Clim.</speaker>
 						<lg type="recitative">
-							<l>
-								<speaker>Clim.</speaker> L’esito tel dirà. 
-								<speaker>Lucr.</speaker> Se questo è vero ,
-							</l>
-							<l>Difficile non fia per compiacerti ,</l>
+							<l>L’esito tel dirà.</l>
+						</lg>
+					</sp>
+					<sp who="#lucrino">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<speaker>Lucr.</speaker>
+						<lg type="recitative">
+							<l>Se questo è vero ,</l>
+							<l>Difficile non sia per compiacerti ,</l>
 							<l>Perche senza sospetto haver tu possa</l>
 							<l>Anco in tempo di notte</l>
 							<l>Isconosciuto nel Giardin l’accesso ,</l>
@@ -713,16 +732,13 @@
 							<l>Di seguirmi proccura ,</l>
 							<l>E poi del resto, a me lascia la cura .</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Nel Giardin di piante adorno</l>
-								<l rend="indent">Segui Amico i passi miei ,</l>
-								<l rend="indent">I tuoi sensi io ben comprendo</l>
-								<l rend="indent">E se giungo à quel ch’attendo ,</l>
-								<l rend="indent">Non invidio à gl’alti Dei</l>
-							</lg>
-							<l rend="indent">Nel &amp;c.</l>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Nel Giardin di piante adorno</l>
+							<l rend="indent">Segui Amico i passi miei ,</l>
+							<l rend="indent">I tuoi sensi io ben comprendo</l>
+							<l rend="indent">E se giungo à quel ch’attendo ,</l>
+							<l rend="indent">Non invidio à gl’alti Dei</l>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="8">
@@ -733,6 +749,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">S</hi>ortì, come bramavo,
+							
 							</l>
 							<l>Esito fortunato il desir mio .</l>
 							<l>Non fù bugia, nè inganno il dir, che sia</l>
@@ -741,17 +758,14 @@
 							<l>Di quel loco felice ,</l>
 							<l>E che cerca il mio core, è Berenice .</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">La mia fiamma và dicendo</l>
-								<l rend="indent">Quì l’amor, che chiudi in seno ,</l>
-								<l rend="indent">Tutto lieto un dì farà.</l>
-								<l rend="indent">Nè la forza d’altro ardore,</l>
-								<l rend="indent">Tanto amore .</l>
-								<l rend="indent">Già mai, spegnere potrà</l>
-							</lg>
-							<l rend="indent">La mia &amp;c.</l>
-						</div>
+						<lg type="aria">
+							<l rend="indent">La mia fiamma và dicendo</l>
+							<l rend="indent">Quì l’amor, che chiudi in seno ,</l>
+							<l rend="indent">Tutto lieto un dì farà.</l>
+							<l rend="indent">Nè la forza d’altro ardore,</l>
+							<l rend="indent">Tanto amore .</l>
+							<l rend="indent">Già mai, spegnere potrà</l>
+						</lg>
 					</sp>
 				</div>
 				<!--<fw type="catch" place="bottom">SCE-</fw>-->
@@ -764,6 +778,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">S</hi>cuotiti , Adrasto , e non voler scherzando
+							
 							</l>
 							<l>Più a lungo tormentar un cor , che t’ama .</l>
 						</lg>
@@ -783,17 +798,27 @@
 						<speaker>Id.</speaker>
 						<lg type="recitative">
 							<l>Il Prence di Cirene</l>
-							<l>Adrasto non sei tu ? 
-								<speaker>Adr.</speaker> Io non lo niego .
-							</l>
+							<l>Adrasto non sei tu ?</l>
+						</lg>
+					</sp>
+					<sp who="#adrasto">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<speaker>Adr.</speaker>
+						<lg type="recitative">
+							<l>Io non lo niego .</l>
 						</lg>
 					</sp>
 					<sp who="#idalma">
 						<speaker>Id.</speaker>
 						<lg type="recitative">
-							<l>E Idalma non conosci ? 
-								<speaker>Adr.</speaker> Idalma mai
-							</l>
+							<l>E Idalma non conosci ?</l>
+						</lg>
+					</sp>
+					<sp who="#adrasto">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<speaker>Adr.</speaker>
+						<lg type="recitative">
+							<l>Idalma mai</l>
 							<l>Mi fù cognita , il giuro ,</l>
 							<l>E quanto più ti mirò ,</l>
 							<l>De l’equivoco tuo più m’assicuro .</l>
@@ -822,7 +847,7 @@
 						<lg type="recitative">
 							<l>Non ti conosco .</l>
 						</lg>
-						<stage rend="right">parte . .</stage>
+						<stage rend="right">parte .</stage>
 					</sp>
 					<sp who="#idalma">
 						<lg type="stanza">
@@ -856,6 +881,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">Q</hi>uì la Reina. Il secondar l'ordita
+							
 							</l>
 							<l>Frode, Signor, conviene; in questi ar-</l>
 							<l>Tutto si cela col chiamarmi Padre. (nesi,</l>
@@ -864,9 +890,14 @@
 					<sp who="#climene">
 						<speaker>Clim.</speaker>
 						<lg type="recitative">
-							<l>M'assista amor. 
-								<speaker>Cas.</speaker> Lucrino.
-							</l>
+							<l>M'assista amor.</l>
+						</lg>
+					</sp>
+					<sp who="#casira">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<speaker>Cas:</speaker>
+						<lg type="recitative">
+							<l>Lucrino.</l>
 						</lg>
 					</sp>
 					<sp who="#lucrino">
@@ -910,6 +941,7 @@
 						<speaker>Luc.</speaker>
 						<lg type="recitative">
 							<l>Volo à ubbidirti. 
+								
 								<stage rend="right">Lucr. parte.</stage>
 							</l>
 						</lg>
@@ -925,6 +957,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">E</hi> che ti piacque, ò Floro,
+							
 							</l>
 							<l>Ne l'Itale contrade?</l>
 						</lg>
@@ -964,25 +997,31 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">A</hi> l' onor d' ubbidirti
+							
 							</l>
-							<l>Vengo, Regina. 
-								<speaker>Cas.</speaker> Quello,
-							</l>
+							<l>Vengo, Regina.</l>
+						</lg>
+					</sp>
+					<sp who="#casira">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<speaker>Cas.</speaker>
+						<lg>
+							<l>Quello,</l>
 							<l>Che voi vedete, è Floro</l>
 							<l>Cotanto sospirato</l>
 							<l>Dal vecchio Padre. Ei giunse</l>
 							<l>D' Arsinoe, e son momenti,</l>
 							<l>Nel legno, che s'infranse à quelle spiaggie,</l>
 							<l>Egli si ritrovò; darci contezza</l>
+							<!--<fw type="catch" place="bottom">Di</fw>-->
+							<pb n="21"/>
+							<l>Di Climene saprà.</l>
 						</lg>
 					</sp>
-					<!--<fw type="catch" place="bottom">Di</fw>-->
-					<pb n="21"/>
 					<sp who="#floro">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
 						<lg>
-							<l>Di Climene saprà. 
-								<speaker>Fl.</speaker> Cauto si parli.
-							</l>
+							<l>Cauto si parli.</l>
 							<stage>à parte.</stage>
 						</lg>
 					</sp>
@@ -998,6 +1037,7 @@
 						<speaker>Fl.</speaker>
 						<lg>
 							<l>Cresce vicino al rogo 
+								
 								<stage>à parte.</stage>
 							</l>
 							<l>Quell' incendio, che già mi strugge il seno.</l>
@@ -1023,6 +1063,7 @@
 						<speaker>Adr.</speaker>
 						<lg>
 							<l>Mie speranze svanite. 
+								
 								<stage>à parte.</stage>
 							</l>
 						</lg>
@@ -1099,20 +1140,34 @@
 						<speaker>Ber.</speaker>
 						<lg>
 							<l>Di questa all' or fastoso</l>
-							<l>Sarai di Barce il Re. 
-								<speaker>Adr.</speaker> Sarò tuo Sposo.
-							</l>
+							<l>Sarai di Barce il Re.</l>
+						</lg>
+					</sp>
+					<sp who="#adrasto">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<speaker>Adr.</speaker>
+						<lg>
+							<l>Sarò tuo Sposo.</l>
 						</lg>
 					</sp>
 					<sp who="#floro">
 						<speaker>Fl.</speaker>
 						<lg>
-							<l>Che sento? 
-								<speaker>Cas.</speaker> Ed in qual Parte
-							</l>
-							<l>Rivolto hà i passi? 
-								<speaker>Fl.</speaker> Ei false
-							</l>
+							<l>Che sento?</l>
+						</lg>
+					</sp>
+					<sp who="#casira">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<lg>
+							<l>Ed in qual Parte</l>
+							<l>Rivolto hà i passi?</l>
+						</lg>
+					</sp>
+					<sp who="#floro">
+						<!-- !!! Speech starts mid-line. It remains to be decided how this should be encoded. -->
+						<speaker>Fl.</speaker>
+						<lg>
+							<l>Ei false</l>
 							<l>Sopra destrier, ch' à caso</l>
 							<l>Ivi trovò senza custode alcuno,</l>
 							<l>E in un batter di ciglio</l>
@@ -1147,6 +1202,7 @@
 							<lg>
 								<l>
 									<hi rend="initial">N</hi>on è facile impresa.
+								
 								</l>
 								<l>Qual se la crede Adrasto,</l>
 								<l>Il superar Climene. Io, che lo vidi</l>
@@ -1167,8 +1223,8 @@
 								<l>Vittima de' tuoi sdegni</l>
 							</lg>
 						</sp>
+						<stage>Egli</stage>
 					</div>
-					<stage>Egli</stage>
 				</div>
 				<pb n="23"/>
 				<div type="scene" n="13">
@@ -1190,17 +1246,15 @@
 							<l>E cangia di Fortuna. Io troppo dissi.</l>
 							<stage>à parte.</stage>
 						</lg>
-						<div type="aria">
-							<lg>
-								<l>M' è più caro un tuo commando,</l>
-								<l>Ch' à servirti mi fà degno,</l>
-								<l>Che d' un Regno la mercè,</l>
-								<l>Sol aspiro à tal vittoria,</l>
-								<l>Perch' il pregio della gloria</l>
-								<l>Dia risalto alla mia fè.</l>
-							</lg>
-							<stage>M' è più ec.</stage>
-						</div>
+						<lg type="aria">
+							<l>M' è più caro un tuo commando,</l>
+							<l>Ch' à servirti mi fà degno,</l>
+							<l>Che d' un Regno la mercè,</l>
+							<l>Sol aspiro à tal vittoria,</l>
+							<l>Perch' il pregio della gloria</l>
+							<l>Dia risalto alla mia fè.</l>
+						</lg>
+						<stage>M' è più ec.</stage>
 					</sp>
 				</div>
 				<div type="scene" n="14">
@@ -1210,6 +1264,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">C</hi>he d' un Prence gl' affetti
+							
 							</l>
 							<l>Non mi fien cari, e poi</l>
 							<l>Trasportata io mi senta all' improviso</l>
@@ -1234,19 +1289,17 @@
 							<l>Da gli lacci d' amor trovar lo scampo,</l>
 							<l>In essi più m' avvolgo, e più m' inciampo.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l>Spiegata ch' ha la rete,</l>
-								<l>Sotto di verdi fronde</l>
-								<l>Il Gacciator s' asconde,</l>
-								<l>E dolce suona.</l>
-								<l>Deluso à quel concento</l>
-								<l>Vola il pennuto armento,</l>
-								<l>E accorto del fallir,</l>
-								<l>Più che cerca fuggir,</l>
-								<l>Più s' imprigiona.</l>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l>Spiegata ch' ha la rete,</l>
+							<l>Sotto di verdi fronde</l>
+							<l>Il Gacciator s' asconde,</l>
+							<l>E dolce suona.</l>
+							<l>Deluso à quel concento</l>
+							<l>Vola il pennuto armento,</l>
+							<l>E accorto del fallir,</l>
+							<l>Più che cerca fuggir,</l>
+							<l>Più s' imprigiona.</l>
+						</lg>
 					</sp>
 					<trailer>Fine dell' Atto Primo.</trailer>
 					<!--<fw type="catchword">AT-</fw>-->
@@ -1264,6 +1317,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">Q</hi>uesto, che mi fù un tempo
+							
 							</l>
 							<l>Esercizio sì caro</l>
 							<l>Di saettar co l’arco</l>
@@ -1292,25 +1346,21 @@
 							<l>Io goderò di rimaner quì sola.</l>
 						</lg>
 					</sp>
-					<div type="aria">
-						<sp who="#idalma">
-							<speaker>Id.</speaker>
-							<lg type="stanza">
-								<l>Hor che lieto ride il Prato,</l>
-								<l>Tutto erbette, e tutto fiori,</l>
-								<l>Sparge il Fonte i dolci humori,</l>
-								<l>Goda l’alma in libertà.</l>
-								<l>Non perturbi questa cara</l>
-								<l>Dolce Pace, e dolce nido,</l>
-							</lg>
-						</sp>
-					</div>
-					<pb n="26"/>
-					<lg type="stanza">
-						<l>La saetta di cupido,</l>
-						<l>Che il tuo core languir fà.</l>
-						<note type="daCapo">Hor, &amp;c.</note>
-					</lg>
+					<sp who="#idalma">
+						<speaker>Id.</speaker>
+						<lg type="aria">
+							<l>Hor che lieto ride il Prato,</l>
+							<l>Tutto erbette, e tutto fiori,</l>
+							<l>Sparge il Fonte i dolci humori,</l>
+							<l>Goda l’alma in libertà.</l>
+							<l>Non perturbi questa cara</l>
+							<l>Dolce Pace, e dolce nido,</l>
+							<pb n="26"/>
+							<l>La saetta di cupido,</l>
+							<l>Che il tuo core languir fà.</l>
+							<note type="daCapo">Hor, &amp;c.</note>
+						</lg>
+					</sp>
 				</div>
 				<div type="scene" n="2">
 					<head>SCENA II.</head>
@@ -1320,6 +1370,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">O</hi> quanto a’ miei pensieri
+							
 							</l>
 							<l>E’ conforme di questa</l>
 							<l>Solitudine cara il sito ameno!</l>
@@ -1360,6 +1411,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">B</hi>erenice, mi vedi
+							
 							</l>
 							<l>Viva, mercè de Numi,</l>
 						</lg>
@@ -1423,6 +1475,7 @@
 							<l>Onde comprenda ogn’uno</l>
 							<l>Che in quello affissi il ciglio,</l>
 							<l>Il valor del tuo braccio, e il mio periglio. 
+								
 								<stage>p.</stage>
 							</l>
 						</lg>
@@ -1436,6 +1489,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">L</hi>’alma mi torna in sen, ma credi, ò Floro,
+							
 							</l>
 							<l>Ch’il timore così m’oppresse i sensi,</l>
 							<l>Ch’adagiar mi conviene, e riposarmi.</l>
@@ -1446,9 +1500,7 @@
 							<l>Andar del pari amiche</l>
 						</lg>
 					</sp>
-					<div type="catchword">
-						<p>B 2 Mu-</p>
-					</div>
+					<!-- <div type="catchword"><p>B 2 Mu-</p></div> -->
 					<pb n="28"/>
 					<sp who="#berenice">
 						<lg type="recitative">
@@ -1471,19 +1523,17 @@
 						<lg type="recitative">
 							<l>E’ distinto l’honor, che mi concedi.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Cara Filli, se mi vedi</l>
-								<l rend="indent">Troncar fronde, e coglier fiori,</l>
-								<l rend="indent">Nato, sono</l>
-								<l rend="indent">Al Regno, al Trono,</l>
-								<l rend="indent">Ma per te son Giardinier.</l>
-								<l rend="indent">Imparai da Giove amante,</l>
-								<l rend="indent">Che cangiossi in guise tante</l>
-								<l rend="indent">Per bel volto posseder.</l>
-								<note type="daCapo">Cara, ec.</note>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Cara Filli, se mi vedi</l>
+							<l rend="indent">Troncar fronde, e coglier fiori,</l>
+							<l rend="indent">Nato, sono</l>
+							<l rend="indent">Al Regno, al Trono,</l>
+							<l rend="indent">Ma per te son Giardinier.</l>
+							<l rend="indent">Imparai da Giove amante,</l>
+							<l rend="indent">Che cangiossi in guise tante</l>
+							<l rend="indent">Per bel volto posseder.</l>
+							<note type="daCapo">Cara, ec.</note>
+						</lg>
 					</sp>
 					<sp who="#berenice">
 						<speaker>Ber.</speaker>
@@ -1521,6 +1571,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">R</hi>ivolti à Berenice
+							
 							</l>
 							<l>Erano i pensieri miei;</l>
 							<l>E per dar al pensier maggior vigore,</l>
@@ -1529,9 +1580,7 @@
 							<stage>s’avvicina.</stage>
 						</lg>
 					</sp>
-					<div type="catchword">
-						<p>L’ani-</p>
-					</div>
+					<!-- <div type="catchword"><p>L’ani-</p></div> -->
 					<pb n="29"/>
 					<sp who="#adrasto">
 						<lg type="recitative">
@@ -1647,14 +1696,13 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">C</hi>he veggo mai? 
+							
 							</l>
 							<stage> lascia la mano </stage>
 							<l>Le Donzelle Reali.</l>
 						</lg>
 					</sp>
-					<div type="catchword">
-						<p>B 3 Si</p>
-					</div>
+					<!-- <div type="catchword"><p>B 3 Si</p></div> -->
 					<pb n="30"/>
 					<sp who="#floro">
 						<lg type="recitative">
@@ -1702,17 +1750,15 @@
 							<l>Rattempra l’ira, Adrasto,</l>
 							<l>E del superbo cor modera il fasto:</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Quando servo ad un bel volto</l>
-								<l rend="indent">Il rigore d’un Rivale</l>
-								<l rend="indent">Il mio cor temer non sà,</l>
-								<l rend="indent">E quà l’òr cieco s’oppone</l>
-								<l rend="indent">Al dover à la raggione</l>
-								<l rend="indent">L’ire in me rifveglierà.</l>
-								<note type="daCapo">Quando &amp;c.</note>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Quando servo ad un bel volto</l>
+							<l rend="indent">Il rigore d’un Rivale</l>
+							<l rend="indent">Il mio cor temer non sà,</l>
+							<l rend="indent">E quà l’òr cieco s’oppone</l>
+							<l rend="indent">Al dover à la raggione</l>
+							<l rend="indent">L’ire in me rifveglierà.</l>
+							<note type="daCapo">Quando &amp;c.</note>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="8">
@@ -1723,6 +1769,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">D</hi>el grand’honore conferito à Floro
+							
 							</l>
 							<l part="i">Non v’è, chi più risenta</l>
 							<l part="m">Piacer di me.</l>
@@ -1732,9 +1779,7 @@
 						<speaker>Ber.</speaker>
 						<l part="f">Lucrino</l>
 					</sp>
-					<div type="catchword">
-						<p>T</p>
-					</div>
+					<!-- <div type="catchword"><p>T</p></div> -->
 					<pb n="31"/>
 					<sp who="#berenice">
 						<lg type="recitative">
@@ -1771,6 +1816,7 @@
 							<l>Regia Dongella, in me. Forse ti disse,</l>
 							<l>Che Prence egl’è, ch’acceso</l>
 							<l>De l’amore d’Elvira (il ver si celi) 
+								
 								<stage>à parte.</stage>
 							</l>
 							<l>Per potere con agio</l>
@@ -1826,9 +1872,7 @@
 							<l rend="indent">Già tutto intendo.</l>
 						</lg>
 					</sp>
-					<div type="catchword">
-						<p>B 4 L'</p>
-					</div>
+					<!-- <div type="catchword"><p>B 4 L'</p></div> -->
 					<pb n="32"/>
 					<lg type="stanza">
 						<l>L’arcano nel mio petto</l>
@@ -1847,6 +1891,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">V</hi>engo Reina, e parerà improvviso
+							
 							</l>
 							<l>A chiederti congedo.</l>
 							<l>Giusto motivo, e degno,</l>
@@ -1922,9 +1967,7 @@
 						<speaker>Cas.</speaker>
 						<l>Ancor, che questo io veggia,</l>
 					</sp>
-					<div type="catchword">
-						<p>La</p>
-					</div>
+					<!-- <div type="catchword"><p>La</p></div> -->
 					<pb n="33"/>
 					<sp who="#casira">
 						<stage>La Regina si ritira nel Gabinetto di Specchi, e chiude la porta.</stage>
@@ -1943,6 +1986,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">F</hi>loro, già che siamo soli,
+							
 							</l>
 							<l>Con libertà de’ sensi</l>
 							<l>Appaga i desir miei,...</l>
@@ -2014,9 +2058,7 @@
 							<l>Bacio, ch’il core invia,</l>
 						</lg>
 					</sp>
-					<div type="catchword">
-						<p>B 5 E sù</p>
-					</div>
+					<!-- <div type="catchword"><p>B 5 E sù</p></div> -->
 					<pb n="34"/>
 					<sp who="#floro">
 						<lg type="recitative">
@@ -2046,19 +2088,17 @@
 					</sp>
 					<sp who="#floro">
 						<speaker>Flo.</speaker>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Io sono, e ti basti,</l>
-								<l rend="indent">Un’ alma, che pena,</l>
-								<l rend="indent">Un core, che langue;</l>
-								<l rend="indent">Che cerchi di più?</l>
-								<l rend="indent">Tacendo così,</l>
-								<l rend="indent">Io spero, ch’un dì</l>
-								<l rend="indent">Felice mi renda</l>
-								<l rend="indent">Fedel servitù.</l>
-								<note type="daCapo">Io sono ec.</note>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Io sono, e ti basti,</l>
+							<l rend="indent">Un’ alma, che pena,</l>
+							<l rend="indent">Un core, che langue;</l>
+							<l rend="indent">Che cerchi di più?</l>
+							<l rend="indent">Tacendo così,</l>
+							<l rend="indent">Io spero, ch’un dì</l>
+							<l rend="indent">Felice mi renda</l>
+							<l rend="indent">Fedel servitù.</l>
+							<note type="daCapo">Io sono ec.</note>
+						</lg>
 						<stage>Fa gesti d’affetto nel terminar l’aria: e finita la canzonetta le torna à bacciare la mano.</stage>
 					</sp>
 				</div>
@@ -2071,6 +2111,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">T</hi>emerario Vassallo,
+							
 							</l>
 							<l>Che sollevato à pena</l>
 							<l>Dal favor de Regnanti, osi cotanto.</l>
@@ -2096,13 +2137,11 @@
 						<speaker>Ber.</speaker>
 						<l>In ritirata parte osserva, Idalma,</l>
 					</sp>
-					<div type="catchword">
-						<p>Qua-</p>
-					</div>
+					<!-- <div type="catchword"><p>Qua-</p></div> -->
 					<pb n="35"/>
 					<sp who="#berenice">
 						<lg type="recitative">
-							<l>Quale l’evento fia, me lo rapporta,</l>
+							<l>Quale l’evento sia, me lo rapporta,</l>
 							<l>Ma se pere il mio ben, oh Dio! son morta.</l>
 						</lg>
 						<stage>Parte volgendosi in dietro, e mira Floro.</stage>
@@ -2116,6 +2155,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">I</hi>caro sconsigliato,
+							
 							</l>
 							<l>Che con vanni di cera</l>
 							<l>A la sfera del Sol ergesti il volo,</l>
@@ -2127,17 +2167,15 @@
 							<l>Resti lo scellerato</l>
 							<l>Per mano del carnefice svenato.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Ardita Farfalletta</l>
-								<l rend="indent">D’intorno acesa Face,</l>
-								<l rend="indent">Volando se ne sta.</l>
-								<l rend="indent">Tanto s’accosta al lume,</l>
-								<l rend="indent">Che ardendo, alfin le piume,</l>
-								<l rend="indent">In esso, à morir và.</l>
-								<note type="daCapo">Ardita &amp;c.</note>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Ardita Farfalletta</l>
+							<l rend="indent">D’intorno acesa Face,</l>
+							<l rend="indent">Volando se ne sta.</l>
+							<l rend="indent">Tanto s’accosta al lume,</l>
+							<l rend="indent">Che ardendo, alfin le piume,</l>
+							<l rend="indent">In esso, à morir và.</l>
+							<note type="daCapo">Ardita &amp;c.</note>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="13">
@@ -2148,6 +2186,7 @@
 						<lg type="recitative">
 							<l>
 								<hi rend="initial">I</hi>dalma, in me tu vedi
+							
 							</l>
 							<l>Di volubil Fortuna</l>
 							<l>Un’ immagine vera. A l’hor, ch’io credo</l>
@@ -2165,9 +2204,7 @@
 						<l part="f">A Berenice..</l>
 						<l>Che de secreti suoi ti vuole à parte,</l>
 					</sp>
-					<div type="catchword">
-						<p>B 6 Ma</p>
-					</div>
+					<!-- <div type="catchword"><p>B 6 Ma</p></div> -->
 					<pb n="36"/>
 					<sp who="#floro">
 						<lg type="recitative">
@@ -2202,23 +2239,19 @@
 							<l>Che dal terreno carcere disciolto</l>
 							<l>Lascia gl'Elisi per baciar quel volto.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Quanto ti disse il labbro</l>
-								<l rend="indent">Consegno à la tua fè.</l>
-								<l rend="indent">Abbraccia l'Idol mio,</l>
-								<l rend="indent">E questo estremo addio</l>
-								<l rend="indent">Le porgerai per me.</l>
-								<note type="daCapo">Quanto ec.</note>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Quanto ti disse il labbro</l>
+							<l rend="indent">Consegno à la tua fè.</l>
+							<l rend="indent">Abbraccia l'Idol mio,</l>
+							<l rend="indent">E questo estremo addio</l>
+							<l rend="indent">Le porgerai per me.</l>
+							<note type="daCapo">Quanto ec.</note>
+						</lg>
 					</sp>
 				</div>
 				<trailer>Fine dell'Atto Secondo.</trailer>
 			</div>
-			<div type="catchword">
-				<p>A T-</p>
-			</div>
+			<!-- <div type="catchword"><p>A T-</p></div> -->
 			<pb n="37"/>
 			<div type="act" n="3">
 				<head>ATTO TERZO.</head>
@@ -2231,6 +2264,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">D</hi>unque Floro non è, quale si finge?
+							
 							</l>
 							<l>E Prence à quanto esprimi? il nome?</l>
 						</lg>
@@ -2268,26 +2302,21 @@
 							<l>Senza di te rimanga,</l>
 							<l>Opra da forte tu, lascia, ch'io pianga.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Si begl'occhi, che v'adoro,</l>
-								<l rend="indent">Si bel labro per tè moro.</l>
-								<l rend="indent">Nè già mai vi lascierò.</l>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Si begl'occhi, che v'adoro,</l>
+							<l rend="indent">Si bel labro per tè moro.</l>
+							<l rend="indent">Nè già mai vi lascierò.</l>
+						</lg>
 					</sp>
 					<stage>Cre-</stage>
 					<pb n="38"/>
-					<div type="aria">
-						<lg type="stanza">
-							<l rend="indent">Credi a me,</l>
-							<l rend="indent">Che per te</l>
-							<l rend="indent">Il mio core</l>
-							<l rend="indent">E tutto Amore.</l>
-							<l rend="indent">E adorarvi ogn' hor saprò</l>
-						</lg>
-						<stage rend="indent">Se &amp;c.</stage>
-					</div>
+					<lg type="aria">
+						<l rend="indent">Credi a me,</l>
+						<l rend="indent">Che per te</l>
+						<l rend="indent">Il mio core</l>
+						<l rend="indent">E tutto Amore.</l>
+						<l rend="indent">E adorarvi ogn' hor saprò</l>
+					</lg>
 				</div>
 				<div type="scene" n="2">
 					<head>SCENA II.</head>
@@ -2297,22 +2326,20 @@
 						<lg>
 							<l>
 								<hi rend="initial">T</hi>roppo floro tentò, ma pur conviene
+							
 							</l>
 							<l>Salvarlo ad ogni costo onde non resti</l>
 							<l>Scopo a Regii furori:</l>
 							<l>E emendi la virtù d'amor gli errori.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Quel Torrente, che trascende</l>
-								<l rend="indent">E con l'argine contende</l>
-								<l rend="indent">Hà nel mar poi la sua morte.</l>
-								<l rend="indent">Così un cor, ch' amando spera</l>
-								<l rend="indent">E va lungi à la sua sfera</l>
-								<l rend="indent">Va tentando la sua forte</l>
-							</lg>
-							<stage rend="indent">Quel &amp;c.</stage>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Quel Torrente, che trascende</l>
+							<l rend="indent">E con l'argine contende</l>
+							<l rend="indent">Hà nel mar poi la sua morte.</l>
+							<l rend="indent">Così un cor, ch' amando spera</l>
+							<l rend="indent">E va lungi à la sua sfera</l>
+							<l rend="indent">Va tentando la sua forte</l>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="3">
@@ -2323,6 +2350,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">E</hi>celsa Donna, io vengo.
+							
 							</l>
 						</lg>
 					</sp>
@@ -2458,17 +2486,14 @@
 					</sp>
 					<sp who="#lucrino">
 						<speaker>Luc.</speaker>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Donna Invitta il tuo bel core</l>
-								<l rend="indent">Accompagni col valore,</l>
-								<l rend="indent">La Clemenza e la pietà.</l>
-								<l rend="indent">Men pavento il crudo fato,</l>
-								<l rend="indent">Di quel volto tuo sdegnato,</l>
-								<l rend="indent">Che mi toglie libertà.</l>
-							</lg>
-							<stage rend="indent">Donna &amp;c.</stage>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Donna Invitta il tuo bel core</l>
+							<l rend="indent">Accompagni col valore,</l>
+							<l rend="indent">La Clemenza e la pietà.</l>
+							<l rend="indent">Men pavento il crudo fato,</l>
+							<l rend="indent">Di quel volto tuo sdegnato,</l>
+							<l rend="indent">Che mi toglie libertà.</l>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="4">
@@ -2595,19 +2620,16 @@
 						<lg>
 							<l>Nulla giovò, troppo di selce ha il core.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Que l'infelice ardor,</l>
-								<l rend="indent">Ch'in sen t'opprime il cor.</l>
-								<l rend="indent">Lungi da la sua Face,</l>
-								<l rend="indent">Pace, trovar non sà.</l>
-								<l rend="indent">Temi di sua sventura,</l>
-								<l rend="indent">Ma risanar procura,</l>
-								<l rend="indent">Da quel martir tiranno,</l>
-								<l rend="indent">Ch'affanno, al cor ti dà.</l>
-							</lg>
-							<stage rend="indent">Que l' &amp;c.</stage>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Que l'infelice ardor,</l>
+							<l rend="indent">Ch'in sen t'opprime il cor.</l>
+							<l rend="indent">Lungi da la sua Face,</l>
+							<l rend="indent">Pace, trovar non sà.</l>
+							<l rend="indent">Temi di sua sventura,</l>
+							<l rend="indent">Ma risanar procura,</l>
+							<l rend="indent">Da quel martir tiranno,</l>
+							<l rend="indent">Ch'affanno, al cor ti dà.</l>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="5">
@@ -2618,6 +2640,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">B</hi>arbara donna, e qual conforto è questo
+							
 							</l>
 							<l>Che rendi al dolor mio</l>
 							<l>Perder l'amico oh Dio!</l>
@@ -2649,23 +2672,21 @@
 							<l>Condannato il mio cor à un duolo eterno,</l>
 							<l>Smanie, pene, rigor: tutto l'Inferno.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Mi trafigge</l>
-								<l rend="indent">M'uccide</l>
-								<l rend="indent">M'affanna</l>
-								<l rend="indent">La doglia tiranna</l>
-								<l rend="indent">Cordoglio dolore</l>
-								<l rend="indent">Fierezza, rigore,</l>
-								<l rend="indent">M'accrescon la pena.</l>
-								<l rend="indent">Un Aspide fiero,</l>
-								<l rend="indent">Il petto mi rode,</l>
-								<l rend="indent">E in tanto tormento,</l>
-								<l rend="indent">Non veggo non sento,</l>
-								<l rend="indent">Risplender un raggio,</l>
-								<l rend="indent">Di luce serena.</l>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Mi trafigge</l>
+							<l rend="indent">M'uccide</l>
+							<l rend="indent">M'affanna</l>
+							<l rend="indent">La doglia tiranna</l>
+							<l rend="indent">Cordoglio dolore</l>
+							<l rend="indent">Fierezza, rigore,</l>
+							<l rend="indent">M'accrescon la pena.</l>
+							<l rend="indent">Un Aspide fiero,</l>
+							<l rend="indent">Il petto mi rode,</l>
+							<l rend="indent">E in tanto tormento,</l>
+							<l rend="indent">Non veggo non sento,</l>
+							<l rend="indent">Risplender un raggio,</l>
+							<l rend="indent">Di luce serena.</l>
+						</lg>
 					</sp>
 				</div>
 				<div type="scene" n="6">
@@ -2677,6 +2698,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">E</hi> converrà, ch'io mora
+							
 							</l>
 							<l>Senza ch'à l'Idol mio....</l>
 						</lg>
@@ -2698,14 +2720,12 @@
 							<l>Resti per questa via tolta al suo core</l>
 							<l>La pena ria d'un scellerato amore.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Duri ceppi, che togliete</l>
-								<l rend="indent">Al mio piè la libertà.</l>
-								<l rend="indent">Perchè mai non vi frangete</l>
-								<l rend="indent">Del mio duol mossi à pietà.</l>
-							</lg>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Duri ceppi, che togliete</l>
+							<l rend="indent">Al mio piè la libertà.</l>
+							<l rend="indent">Perchè mai non vi frangete</l>
+							<l rend="indent">Del mio duol mossi à pietà.</l>
+						</lg>
 						<lg>
 							<l>Ma prima in brevi accenti</l>
 							<l>Si spieghi à lei de l'alma</l>
@@ -2748,6 +2768,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">I</hi>n queste aperte braccia,
+							
 							</l>
 							<l>Che stendo per unirti,</l>
 							<l>Diletto Floro, al seno,</l>
@@ -2821,6 +2842,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">F</hi>loro, Floro, ove sei?
+							
 							</l>
 							<l>Cor, Berenice, quanto più son gravi</l>
 						</lg>
@@ -2869,17 +2891,14 @@
 							<l>Ristretto centro il core,</l>
 							<l>Solo sia, che m'uccida, il mio dolore.</l>
 						</lg>
-						<div type="aria">
-							<lg type="stanza">
-								<l rend="indent">Voresti farmi piangere</l>
-								<l rend="indent">E piangere vogl'io</l>
-								<l rend="indent">Il mio martoro,</l>
-								<l rend="indent">Sì sì, che piangerò</l>
-								<l rend="indent">Se più non rivedrò</l>
-								<l rend="indent">Il bel che adoro.</l>
-							</lg>
-							<stage rend="indent">Voresti &amp;c.</stage>
-						</div>
+						<lg type="aria">
+							<l rend="indent">Voresti farmi piangere</l>
+							<l rend="indent">E piangere vogl'io</l>
+							<l rend="indent">Il mio martoro,</l>
+							<l rend="indent">Sì sì, che piangerò</l>
+							<l rend="indent">Se più non rivedrò</l>
+							<l rend="indent">Il bel che adoro.</l>
+						</lg>
 					</sp>
 					<stage>SCE-</stage>
 				</div>
@@ -2894,6 +2913,7 @@
 						<lg>
 							<l>
 								<hi rend="initial">Q</hi>uì, dove un Mondo intero
+							
 							</l>
 							<l>E' spettator, e che risiede in Trono,</l>
 							<l>Ch' impera à Barce, io vengo</l>
@@ -2904,7 +2924,7 @@
 					<sp who="#berenice">
 						<speaker>Ber.</speaker>
 						<lg>
-							<l>Oh Dio! che fia?</l>
+							<l>Oh Dio! che sia?</l>
 						</lg>
 					</sp>
 					<sp who="#climene">
@@ -2921,7 +2941,7 @@
 					<sp who="#casira">
 						<speaker>Cas.</speaker>
 						<lg>
-							<l>Fia Sposo à Berenice, e Re in Cirene.</l>
+							<l>Sia Sposo à Berenice, e Re in Cirene.</l>
 						</lg>
 					</sp>
 					<sp who="#climene">
@@ -3094,7 +3114,7 @@
 							<l>Stender la man di Sposo</l>
 							<l>A Idalma unica figlia</l>
 							<l>Del Prencipe d'Epiro: il tutto poi</l>
-							<l>Noto ti fia, ò Reina.</l>
+							<l>Noto ti sia, ò Reina.</l>
 						</lg>
 					</sp>
 					<sp who="#casira">
